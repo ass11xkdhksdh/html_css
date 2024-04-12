@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+   .label_info label {
+     width: 80px;
+     float: left;
+    }
+  </style>
+</head>
+<body>
+  <form action="#" method="get">
+    <fieldset>
+     <legend>기본 정보</legend>
+     <p class="label_info">
+       <label for="id">아이디</label>
+       <input type="text" name="id" id="id" value="lsj2024" readonly />
+     </p>
+     <p class="label_info">
+      <label for="password">패스워드</label>
+      <input type="password" name="pwd" id="password" required />
+     </p>
+   </fieldset>
+   <fieldset>
+     <legend>세부 정보</legend>
+     <p class="label_info">
+       <label for="email">이메일</label>
+       <input 
+        type="email"
+        name="email"
+        id="email"
+        placeholder="@를 넣어야 됩니다." />
+      </p>
+      <p class="label_info">
+        <label for="age">나이</label>
+        <input type="number" id="age" name="age" />
+      </p>
+    </fieldset>
+
+    <fieldset>
+      <legend>주소 입력</legend>
+      <label for="city">도시</label>
+      <select name="city" id="city">
+       <optgroup label="서울시">
+        <option value="강남구">강남구</option>
+        <option value="서초구">서초구</option>
+        <option value="강동구">강동구</option>
+        <option value="영등포구">영등포구</option>
+        <option value="용산구">용산구</option>
+        <option value="중구">중구</option>
+        <option value="강북구">강북구</option>
+       </optgroup>
+       <optgroup label="경기도">
+        <option value="성남시">성남시</option>
+        <option value="수원시">수원시</option>
+        <option value="용인시">용인시</option>
+        <option value="안양시">안양시</option>
+        <option value="화성시">화성시</option>
+        <option value="과천시">과천시</option>
+        <option value="시흥시">시흥시</option>
+       </optgroup>
+      </select>
+    </fieldset>
+
+     <fieldset>
+      <legend>성별</legend>
+      <p></p>
+     </fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </form>
+  
+  
+</body>
+</html>
